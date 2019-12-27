@@ -17,5 +17,5 @@ inputs:
     description: 'Command/s to execute'
     required: true
 runs:
-  using: 'python3'
-  main: 'test.py'
+  using: 'node12'
+  main: 'test.js'
